@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link type="text/css" rel="stylesheet" href="crystalgame.css">
-    <link rel="stylesheet" type="text/javascript" href="reset.css">
 </head>
 <body>
         <div class="container">
@@ -32,7 +31,7 @@
                 <div class="row">
                     
                     <div class="col-md-6" id="randomNmbr">
-                        <h2>Target number: <span id="targetScore"></span></h2>
+                        <h2>Target number: <span id="targetNumber"></span></h2>
                     </div>
                     <div class="col-md-6" id="WandL">
                         <h3>Wins: <span id="wins"></span></h3>
@@ -41,23 +40,30 @@
                     </div>
                 </div>
                 <br>
-
+                <div class="row" id="scoreTracker">
+                        <div class="col-md-12" id="scoreText">
+                            <h2>Your total score is: <span id="playerScore"></span></h2>
+                        </div>
+                </div>
+                <br>
                 <div class="row">
                     <div class="col">
-                            <img src="images/pink.png" class="img-thumnail Pink" alt="Pink Crystal" width="160" height="160">
+                            <img src="images/pink.png" class="img-thumnail pink" id="pink" alt="Pink Crystal" width="160" height="160">
+                    </div>
+                    <div class="col" id="blue">
+                            <img src="images/blue.png" class="img-thumbnail blue" id="blue" alt="Blue Crystal" width="160" height="160">
                     </div>
                     <div class="col">
-                            <img src="images/blue.png" class="img-thumbnail Blue" alt="Blue Crystal" width="160" height="160">
+                            <img src="images/purple.png" class="img-thumnail burple" id="purple "alt="Purple Crystal" width="160" height="160">
                     </div>
                     <div class="col">
-                            <img src="images/purple.png" class="img-thumnail Purple" alt="Purple Crystal" width="160" height="160">
-                    </div>
-                    <div class="col">
-                            <img src="images/green.png" class="img-thumnail Green" alt="Green Crystal" width="160" height="160">    
+                            <img src="images/green.png" class="img-thumnail green"  id="green" alt="Green Crystal" width="160" height="160">    
                     </div>
                 </div>
+
+               
                 
-    <script type="text/javascript" href="crystalgame.js"></script>
+    <script type="text/javascript" src="crystalgame.js"></script>
     
 </body>
 </html>
