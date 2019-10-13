@@ -49,3 +49,9 @@ li {
 .col {
     background: white;
 }
+
+#reset {
+    background: red;
+    color: white;
+    opacity: 0.7;
+}
