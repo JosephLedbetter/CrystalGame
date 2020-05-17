@@ -7,4 +7,4 @@ to memorize the value of each crystal and 'click' to add each value to the total
 number. If you go over, you lose and the loss it reflected on your win/loss tracker.</p>
 
 <h3> Active Link </h3>
-<p></p>
+<p> https://josephledbetter.github.io/CrystalGame/</p>
